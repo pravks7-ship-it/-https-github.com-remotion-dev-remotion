@@ -15,7 +15,7 @@ const BAGMATI = 'M470 42 C 480 120, 500 200, 520 296';
 const KOSI = 'M720 54 C 690 140, 720 220, 705 322';
 const SON = 'M170 498 C 220 420, 270 340, 336 284';
 
-const Stupa: React.FC<{x: number; y: number; s?: number; build?: number; glow?: number}> = ({x, y, s = 1, build = 1, glow = 0}) => {
+export const Stupa: React.FC<{x: number; y: number; s?: number; build?: number; glow?: number}> = ({x, y, s = 1, build = 1, glow = 0}) => {
   const b = Math.max(0, Math.min(1, build));
   return (
     <g transform={`translate(${x} ${y}) scale(${s})`}>
@@ -642,7 +642,7 @@ export const Iron: React.FC<P> = ({dur, lead}) => {
 };
 
 // ------------------------------------------------------------ 8. Elephants = tanks
-const Elephant: React.FC<{trunk: number; leg: number}> = ({trunk, leg}) => (
+export const Elephant: React.FC<{trunk: number; leg: number}> = ({trunk, leg}) => (
   <g>
     {/* legs */}
     {[-150, -70, 70, 150].map((x, i) => (
