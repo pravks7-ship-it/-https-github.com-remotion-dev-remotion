@@ -1,6 +1,7 @@
 import {Composition, Still} from 'remotion';
 import {BiharKiKahani, TOTAL_SECONDS} from './Video';
 import {Thumbnail} from './Thumbnail';
+import {ThumbnailVertical} from './ThumbnailVertical';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -13,5 +14,6 @@ export const RemotionRoot: React.FC = () => (
       height={1080}
     />
     <Still id="Thumbnail" component={Thumbnail} width={1280} height={720} />
+    <Still id="ThumbnailVertical" component={ThumbnailVertical} width={1080} height={1920} />
   </>
 );

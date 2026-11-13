@@ -13,6 +13,7 @@ python3 scripts/make_audio.py   # optional, the wav files are committed
 npm run studio                  # preview
 npm run render                  # -> out/bihar-ki-kahani.mp4
 npx remotion still Thumbnail out/thumbnail.png   # 1280x720 thumbnail
+npx remotion still ThumbnailVertical out/thumbnail-vertical.png   # 1080x1920 Shorts/Reels cover
 ```
 
 If Remotion cannot download its headless Chrome, set `REMOTION_BROWSER` to a local Chrome Headless Shell binary.
