@@ -26,3 +26,13 @@ Flat geometric, paper-grain illustration style. Rivers → fertile soil → padd
 python3 scripts/make_short_audio.py   # optional, wav files are committed
 npx remotion render RiverToPower out/river-to-power-10s.mp4
 ```
+
+## 10-second short: "ViharaDusk"
+
+Flat 2D anime look: cel shading, clean linework, muted palette warming to gold, letterboxed.
+A young monk walks at dusk toward a vihara; ends on विहार → बिहार.
+
+```bash
+python3 scripts/make_vihara_audio.py   # optional, wav files are committed
+npx remotion render ViharaDusk out/vihara-dusk-10s.mp4
+```
