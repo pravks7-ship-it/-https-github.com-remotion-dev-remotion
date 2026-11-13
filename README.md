@@ -17,3 +17,12 @@ npx remotion still ThumbnailVertical out/thumbnail-vertical.png   # 1080x1920 Sh
 ```
 
 If Remotion cannot download its headless Chrome, set `REMOTION_BROWSER` to a local Chrome Headless Shell binary.
+
+## 10-second short: "RiverToPower"
+
+Flat geometric, paper-grain illustration style. Rivers → fertile soil → paddy → Magadh's strength.
+
+```bash
+python3 scripts/make_short_audio.py   # optional, wav files are committed
+npx remotion render RiverToPower out/river-to-power-10s.mp4
+```
